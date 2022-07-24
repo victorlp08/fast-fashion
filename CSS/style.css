@@ -29,7 +29,7 @@ header {
 }
 
 .logo {
-  margin: 8px 10%;
+  margin: 8px 5%;
 }
 
 .menu {
@@ -58,3 +58,33 @@ header {
   color: #556474;
   transition: color 0.3s linear;
 } 
+
+.portfolio {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.portfolio h1 {
+  font-size: 3.5vw;
+  margin-top: 50px;
+}
+
+.portfolio p {
+  color: rgb(117, 109, 109);
+  font-size: 2vw;
+  line-height: 1.8em;
+}
+
+.gallery {
+  margin-left: 50px;
+}
+
+.gallery .gallery-card {
+  display: inline-block;
+  margin-left: 2px;
+  position: relative;
+}
+
+.gallery-card img {
+  width: 25vw;
+}
