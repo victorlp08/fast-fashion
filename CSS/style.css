@@ -62,6 +62,7 @@ header {
 .portfolio {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  margin-bottom: 60px;
 }
 
 .portfolio h1 {
@@ -71,12 +72,12 @@ header {
 
 .portfolio p {
   color: rgb(117, 109, 109);
-  font-size: 2vw;
+  font-size: 1.5vw;
   line-height: 1.8em;
 }
 
 .gallery {
-  margin-left: 50px;
+  margin-left: 115px;
 }
 
 .gallery .gallery-card {
@@ -86,5 +87,21 @@ header {
 }
 
 .gallery-card img {
-  width: 25vw;
+  width: 20vw;
+}
+
+.gallery-title {
+  font-family: var(--fonte-condensed);
+  color: var(--cor01);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+.gallery-card {
+  font-family: var(--fonte-raleway);
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 18px;
 }
